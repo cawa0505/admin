@@ -29,7 +29,7 @@ Route::group([
 		'uses' => 'AdminController@getDisplay'
 	]);
 
-	Route::get('{adminModel}/create', [
+	Route::get('{adminModel}/action/create', [
 		'as'   => 'admin.model.create',
 		'uses' => 'AdminController@getCreate',
 	]);
